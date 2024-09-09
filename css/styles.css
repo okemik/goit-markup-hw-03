@@ -17,6 +17,7 @@ body {
     height: 72px;
     margin: 0 0 0 0;
     background: #ffffff;
+    border-top: 1px solid #e7e9fc;
     }
     .nav-menu {
     display: flex;

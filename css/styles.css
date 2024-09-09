@@ -17,8 +17,8 @@ body {
     height: 72px;
     margin: 0 0 0 0;
     background: #ffffff;
-    border-top: 1px solid #e7e9fc;
-    }
+    border-bottom: 1px solid #E7E9FC;
+  }
     .nav-menu {
     display: flex;
     align-items: flex-start;
@@ -138,9 +138,9 @@ body {
     position: relative;
     width: 1440px;
     height: 600px;
-    margin:auto;
+    margin:104px 0 0 0;
     background: #2e2f42;
-    overflow: auto;
+    overflow: visible auto;
   }
   .effective-solutions {
     display: flex;

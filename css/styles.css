@@ -11,14 +11,14 @@ body {
     margin: auto;
     background: #ffffff;
     }
-    .top-line-bg {
+    .top-bg {
     position: relative;
     width: 1440px;
     height: 72px;
     margin: 0 0 0 0;
     background: #ffffff;
     }
-    .menu-nav {
+    .nav-menu {
     display: flex;
     align-items: flex-start;
     gap: 40px;
@@ -51,7 +51,7 @@ body {
       text-align: left;
       letter-spacing: 0.54px;   
     }
-    .studio-1 {
+    .studio-logo {
       display: flex;
       align-items: center;
       position: relative;
@@ -300,7 +300,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.4px;
   }
-  .growth-opportunities {
+  .research {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -344,7 +344,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.4px;
   }
-  .digital-experiences {
+  .design-practice {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -386,7 +386,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.72px;
   }
-  .flex-row-ee {
+  .flex-row-2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -460,7 +460,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.32px;
  }
-  .team-card-5 {
+  .team-card-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -476,11 +476,11 @@ body {
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
   }
-  .img-6 {
+  .img-2 {
     position: absolute;
     width: 264px;
   }
-  .card-content-7 {
+  .card-content-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -525,7 +525,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.32px;
   }
-  .team-card-8 {
+  .team-card-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -542,11 +542,11 @@ body {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 
   }
-  .img-9 {
+  .img-3 {
     position: absolute;
     width: 264px;
   }
-  .card-content-a {
+  .card-content-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -591,7 +591,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.32px;
   }
-  .team-card-b {
+  .team-card-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -606,11 +606,11 @@ body {
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
   }
-  .img-c {
+  .img-4 {
     position:absolute;
     width: 264px;
   }
-  .card-content-d {
+  .card-content-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -655,7 +655,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.32px;
   }
-  .our-portfolio {
+   .our-portfolio {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -672,7 +672,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.72px;
   }
-   .flex-row2 {
+   .flex-row-3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -688,16 +688,13 @@ body {
     height: 420px;
     background: #ffffff;
   }
-  .img-e {
+  .img-5 {
     position: absolute;
     width: 360px;
     height: 300px;
     margin: 72px 0 0 0;
-    background: url(./assets/images/79bd8fef-0345-44bd-a394-d3a822b61841.png)
-      no-repeat center;
-    background-size: cover;
   }
-  .card-content-f {
+  .card-content-5 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -742,20 +739,21 @@ body {
     white-space: nowrap;
     letter-spacing: 0.32px;
   }
-  .project-card-10 {
+  .project-card-2 {
     flex-shrink: 0;
     position: relative;
     width: 360px;
     height: 420px;
     background: #ffffff;
   }
-  .img-11 {
+  .img-6 {
     position: absolute;
     width: 360px;
     height: 300px;
     margin: 0 0 0 0;
     }
-  .card-content-12 {
+  .card-content-6
+   {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -786,7 +784,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.4px;
   }
-  .marketing-13 {
+  .marketing-2 {
     flex-shrink: 0;
     flex-basis: auto;
     position: relative;
@@ -800,20 +798,20 @@ body {
     white-space: nowrap;
     letter-spacing: 0.32px;
   }
-  .project-card-14 {
+  .project-card-3 {
     flex-shrink: 0;
     position: relative;
     width: 360px;
     height: 420px;
     background: #ffffff;
   }
-  .img-15 {
+  .img-7 {
     position: absolute;
     width: 360px;
     height: 300px;
     margin: 0 0 0 0;
   }
-  .card-content-16 {
+  .card-content-7 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -844,7 +842,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.4px;
   }
-  .app-17 {
+  .app-2 {
     flex-shrink: 0;
     flex-basis: auto;
     position: relative;
@@ -858,7 +856,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.32px;
   }
-  .flex-row-ab {
+  .flex-row-4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -867,23 +865,20 @@ body {
     height: 420px;
     margin: 48px 0 0 156px;
   }
-  .project-card-18 {
+  .project-card-4 {
     flex-shrink: 0;
     position: relative;
     width: 360px;
     height: 420px;
     background: #ffffff;
   }
-  .img-19 {
+  .img-8 {
     position: absolute;
     width: 360px;
     height: 300px;
     margin: 0 0 0 0;
-    background: url(./assets/images/1c83e824d18e2fcd7407be4fb82793a09787ee96.png)
-      no-repeat center;
-    background-size: cover;
   }
-  .card-content-1a {
+  .card-content-8 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -914,7 +909,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.4px;
   }
-  .marketing-1b {
+  .marketing-3 {
     flex-shrink: 0;
     flex-basis: auto;
     position: relative;
@@ -935,13 +930,13 @@ body {
     height: 420px;
     background: #ffffff;
   }
-  .img-1d {
+  .img-9 {
     position: absolute;
     width: 360px;
     height: 300px;
     margin: 0 0 0 0;
   }
-  .card-content-1e {
+  .card-content-9 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -986,20 +981,20 @@ body {
     white-space: nowrap;
     letter-spacing: 0.32px;
   }
-  .project-card-1f {
+  .project-card-6 {
     flex-shrink: 0;
     position: relative;
     width: 360px;
     height: 420px;
     background: #ffffff;
   }
-  .img-20 {
+  .img-10 {
     position: absolute;
     width: 360px;
     height: 300px;
     margin: 0 0 0 0;
   }
-  .card-content-21 {
+  .card-content-10 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1030,7 +1025,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.4px;
   }
-  .marketing-22 {
+  .marketing-4 {
     flex-shrink: 0;
     flex-basis: auto;
     position: relative;
@@ -1044,7 +1039,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.32px;
   }
-  .dark-bg-23 {
+  .dark-bg-2 {
     position: relative;
     width: 1440px;
     height: 312px;
@@ -1052,7 +1047,7 @@ body {
     background: #2e2f42;
     overflow: visible auto;
   }
-  .logo-24 {
+  .logo-2 {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -1061,7 +1056,7 @@ body {
     height: 24px;
     margin: 100px 0 0 156px;
   }
-  .web-25 {
+  .web-2 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -1080,7 +1075,7 @@ body {
     white-space: nowrap;
     letter-spacing: 0.54px;
   }
-  .studio-26 {
+  .studio-2 {
     display: flex;
     align-items: center;
     justify-content: flex-start;

@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    margin-left: 156px;
 }
 
 .logo {
@@ -31,6 +31,7 @@ header {
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
+    width: 115px;
 }
 
 .logo-web {
@@ -41,6 +42,11 @@ header {
     color: #2e2f42;
 }
 
+.nav {
+    display: flex;
+    padding-left: -76px;
+    align-items: center
+}
 nav ul {
     list-style: none;
     display: flex;
@@ -56,11 +62,13 @@ nav a:hover {color: #404BBF ;}
 .contact-info {
     display: flex;
     gap: 40px;
+    width: 344px;
 }
 
 .contact-info a {
     color: #434455;
     text-decoration: none;
+    text-align: left;
 }
   .contact-info a:hover {
       color: #404BBF;}
@@ -140,6 +148,7 @@ ul {list-style-type: none;}
 }
 
 .team-card img {
+    display: block;
     width: 100%;
     height: auto;
 }
@@ -174,6 +183,7 @@ ul {list-style-type: none;}
 }
 
 .portfolio-card img {
+    display: block;
     width: 100%;
     height: auto;
 }

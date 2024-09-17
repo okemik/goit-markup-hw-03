@@ -1,1093 +1,222 @@
 body {
-    color: #2E2F42;
-    background-color: #ffffff;
-    font-family: "Roboto", "Raleway" sans-serif;}
-    .main-container {
-    box-sizing: border-box;}
-    .main-container {
-    position: inherit;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #434455;
     width: 1440px;
     height: 3300px;
-    margin: auto;
-    background: #ffffff;
-    }
-    .top-bg {
-    position: relative;
-    width: 1440px;
-    height: 72px;
-    margin: 0 0 0 0;
-    background: #ffffff;
-    border-bottom: 1px solid #E7E9FC;
-  }
-    .nav-menu {
+}
+
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
+}
+
+.header-content {
     display: flex;
-    align-items: flex-start;
-    gap: 40px;
-    position:absolute;
-    width: 261px;
-    height: 24px;
-    top: 24px;
-    left: 347px;
-    }
-    .logo {
-      display: flex;
-      align-items: center;
-      position: relative;
-      width: 115px;
-      height: 24px;
-      top: 24px;
-      left: 156px;
-    }
-    .web {
-      display: flex;
-      align-items: center;
-      position: relative;
-      width: 44px;
-      height: 21px;
-      color: #4d5ae5;
-      font-family: "Raleway";
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 21px;
-      text-align: left;
-      letter-spacing: 0.54px;   
-    }
-    .studio-logo {
-      display: flex;
-      align-items: center;
-      position: relative;
-      width: 71px;
-      height: 21px;
-      color: #2e2f42;
-      font-family: "Raleway";
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 21px;
-      text-align: left;
-      letter-spacing: 0.54px;
-    }
-    .studio {
-    position: relative;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.32px;
- }
-  .portfolio {
-    position: relative;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.32px;
-  }
-  .contacts {
-    position: relative;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.32px;
-  }
-  .studio:hover,
-  .portfolio:hover,
-  .contacts:hover {
-      color: #404BBF;
-  }
-  .info-email {
-    display: flex;
-    position:absolute;
-    height: 24px;
-    top: 24px;
-    left: 940px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.32px;
-  }
-  .phone-number {
-    display: flex;
-    position: absolute;
-    height: 24px;
-    top: 24px;
-    left: 1133px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.32px;
-  }
-  .info-email:hover,
-  .phone-number:hover {color: #404BBF;}
-  .dark-bg {
-    position: relative;
-    width: 1440px;
-    height: 600px;
-    margin:104px 0 0 0;
-    background: #2e2f42;
-    overflow: visible auto;
-  }
-  .effective-solutions {
-    display: flex;
-    position: relative;
-    width: 496px;
-    height: 120px;
-    margin: 188px 0 0 472px;
-    color: #ffffff;
-    font-family: "Roboto";
-    font-size: 56px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 1.12px;
-  }
-  .button {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-web {
+    color: #4d5ae5;
+}
+
+.logo-studio {
+    color: #2e2f42;
+}
+
+nav ul {
+    list-style: none;
     display: flex;
-    gap: 10px;
-    position: relative;
+    gap: 40px;
+}
+
+nav a {
+    color: #2e2f42;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav a:hover {color: #404BBF ;}
+.contact-info {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-info a {
+    color: #434455;
+    text-decoration: none;
+}
+  .contact-info a:hover {
+      color: #404BBF;}
+.hero {
+    background-color: #2e2f42;
+    color: #fff;
+    text-align: center;
+    padding: 188px 0;
+}
+
+.hero h1 {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin: 0 auto 48px;
+}
+
+.cta-button {
+    background-color: #4d5ae5;
+    color: #fff;
+    border: none;
+    padding: 16px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
     width: 169px;
     height: 56px;
-    margin: 48px 0 0 636px;
-    padding: 0px 10px 16px 32px;
-    cursor: pointer;
-    background: #4d5ae5;
-    border: none;
-    border-radius: 4px;
- }
-  .button:hover{ background-color: #404BBF;}
-  .order-service {
-    position:sticky;
-    color: #ffffff;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.64px;
-  }
-  .flex-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    width: 1128px;
-    height: 344px;
-    margin: 120px 0 0 156px;
-  }
-    .feature {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 8px;
-    position: relative;
-    width: 264px;
-  }
-  .strategy {
-    display: flex;
-    position: relative;
-    width: 264px;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .strategy-solution {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-    width: 264px;
-    height: 72px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.32px;
-  }
-  .feature-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 8px;
-    position: relative;
-    width: 264px;
-  }
-  .punctuality {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 264px;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
- }
-  .key-message {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-    width: 264px;
-    height: 72px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.32px;
-  }
-  .feature-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 8px;
-    position: relative;
-    width: 264px;
-  }
-  .diligence {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 264px;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .research {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-    width: 264px;
-    height: 72px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.32px;
-  }
-  .feature-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 8px;
-    position: relative;
-    width: 264px;
-  }
-  .technologies {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 264px;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .design-practice {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-    width: 264px;
-    height: 72px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.32px;
-  }
-  .light-bg {
-    position: relative;
-    width: 1440px;
-    height: 732px;
-    margin: 120px 0 0 0;
-    font-size: 0px;
-    background: #f4f4fd;
-    overflow: visible auto;
-  }
-  .our-team {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    width: 162px;
-    height: 40px;
-    margin: 120px 0 0 639px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.72px;
-  }
-  .flex-row-2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    width: 1128px;
-    height: 380px;
-    margin: 72px 0 0 156px;
-  }
-  .team-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 32px;
-    position: relative;
-    width: 264px;
-    height: 380px;
-    padding: 0 0 32px 0;
-    background: #ffffff;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-  }
-  .img {
-    position: absolute;
-    width: 264px;
-    }
-.card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    position: relative;
-    width: 232px;
 }
-  .mark-guerrero {
-    display: flex;
-    align-items: flex-start;
-    justify-content:flex-start;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 134px;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .product-designer {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 128px;
-    height: 24px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.32px;
- }
-  .team-card-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 32px;
-    position: relative;
-    width: 264px;
-    height: 380px;
-    padding: 0 0 32px 0;
-    background: #ffffff;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-  }
-  .img-2 {
-    position: absolute;
-    width: 264px;
-  }
-  .card-content-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    position: relative;
-    width: 232px;
-  }
-  .tom-ford {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 88px;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .frontend-developer {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 144px;
-    height: 24px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.32px;
-  }
-  .team-card-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 32px;
-    position: relative;
-    width: 264px;
-    height: 380px;
-    padding: 0 0 32px 0;
-    background: #ffffff;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 
-  }
-  .img-3 {
-    position: absolute;
-    width: 264px;
-  }
-  .card-content-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    position: relative;
-    width: 232px;
-  }
-  .camila-garcia {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 130px;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .marketing {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 75px;
-    height: 24px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.32px;
-  }
-  .team-card-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 32px;
-    position: relative;
-    width: 264px;
-    padding: 0 0 32px 0;
-    background:#ffffff;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-  }
-  .img-4 {
-    position:absolute;
-    width: 264px;
-  }
-  .card-content-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    position: relative;
-    width: 232px;
-  }
-  .daniel-wilson {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 127px;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .ui-designer {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 85px;
-    height: 24px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.32px;
-  }
-   .our-portfolio {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    width: 218px;
-    height: 40px;
-    margin: 120px 0 0 611px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.72px;
-  }
-   .flex-row-3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    width: 1128px;
-    height: 420px;
-    margin: 72px 0 0 156px;
+.cta-button:hover {background-color: #404BBF;}
+
+.features {
+    padding: 120px 0;
 }
-   .project-card {
-    flex-shrink: 0;
-    position: relative;
-    width: 360px;
-    height: 420px;
-    background: #ffffff;
-  }
-  .img-5 {
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    margin: 72px 0 0 0;
-  }
-  .card-content-5 {
+
+ul {list-style-type: none;}
+
+.features-list {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 8px;
-    position: relative;
-    width: 360px;
-    height: 120px;
-    margin: 0 0 0 0;
-    padding: 32px 16px 32px 16px;
-    border-bottom: 1px solid #e7e9fc;
-  }
-  .banking-app {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
+    gap: 24px;
+}
+
+.feature-item {
+    flex: 1;
+}
+
+.feature-item h3 {
     color: #2e2f42;
-    font-family: "Roboto";
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .app {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.32px;
-  }
-  .project-card-2 {
-    flex-shrink: 0;
-    position: relative;
-    width: 360px;
-    height: 420px;
-    background: #ffffff;
-  }
-  .img-6 {
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    margin: 0 0 0 0;
-    }
-  .card-content-6
-   {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 8px;
-    position: relative;
-    width: 360px;
-    height: 120px;
-    margin: 1px 0 0 0;
-    padding: 32px 16px 32px 16px;
-    border-bottom: 1px solid #e7e9fc;
-  }
-  .cashless-payment {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
+    margin-bottom: 8px;
+}
+
+.team {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
     color: #2e2f42;
-    font-family: "Roboto";
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-card {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08);
+    text-align: center;
+}
+
+.team-card img {
+    width: 100%;
+    height: auto;
+}
+
+.team-info {
+    padding: 32px 16px;
+}
+
+.team-name {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .marketing-2 {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.32px;
-  }
-  .project-card-3 {
-    flex-shrink: 0;
-    position: relative;
-    width: 360px;
-    height: 420px;
-    background: #ffffff;
-  }
-  .img-7 {
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    margin: 0 0 0 0;
-  }
-  .card-content-7 {
+    margin-bottom: 8px;
+}
+
+.portfolio {
+    padding: 120px 0;
+}
+
+.portfolio-list {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 8px;
-    position: relative;
-    width: 360px;
-    height: 120px;
-    margin: 0 0 0 0;
-    padding: 32px 16px 32px 16px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
+
+.portfolio-card {
     border-bottom: 1px solid #e7e9fc;
-  }
-  .meditation-app {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
+}
+
+.portfolio-card img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-info {
+    padding: 32px 16px;
+}
+
+.portfolio-title {
     color: #2e2f42;
-    font-family: "Roboto";
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .app-2 {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.32px;
-  }
-  .flex-row-4 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    width: 1128px;
-    height: 420px;
-    margin: 48px 0 0 156px;
-  }
-  .project-card-4 {
-    flex-shrink: 0;
-    position: relative;
-    width: 360px;
-    height: 420px;
-    background: #ffffff;
-  }
-  .img-8 {
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    margin: 0 0 0 0;
-  }
-  .card-content-8 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 8px;
-    position: relative;
-    width: 360px;
-    height: 120px;
-    margin: 0 0 0 0;
-    padding: 32px 16px 32px 16px;
-    border-bottom: 1px solid #e7e9fc;
-  }
-  .taxi-service {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .marketing-3 {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.32px;
-  }
-  .project-card-1c {
-    flex-shrink: 0;
-    position: relative;
-    width: 360px;
-    height: 420px;
-    background: #ffffff;
-  }
-  .img-9 {
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    margin: 0 0 0 0;
-  }
-  .card-content-9 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 8px;
-    position: relative;
-    width: 360px;
-    height: 120px;
-    margin: 0 0 0 0;
-    padding: 32px 16px 32px 16px;
-    border-bottom: 1px solid #e7e9fc;
-  }
-  .screen-illustrations {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .design {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.32px;
-  }
-  .project-card-6 {
-    flex-shrink: 0;
-    position: relative;
-    width: 360px;
-    height: 420px;
-    background: #ffffff;
-  }
-  .img-10 {
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    margin: 0 0 0 0;
-  }
-  .card-content-10 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 8px;
-    position: relative;
-    width: 360px;
-    height: 120px;
-    margin: 0 0 0 0;
-    padding: 32px 16px 32px 16px;
-    border-bottom: 1px solid #e7e9fc;
-  }
-  .online-courses {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
-    color: #2e2f42;
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.4px;
-  }
-  .marketing-4 {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 24px;
-    color: #434455;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    white-space: nowrap;
-    letter-spacing: 0.32px;
-  }
-  .dark-bg-2 {
-    position: relative;
-    width: 1440px;
-    height: 312px;
-    margin: 120px 0 0 0;
-    background: #2e2f42;
-    overflow: visible auto;
-  }
-  .logo-2 {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    position: relative;
-    width: 115px;
-    height: 24px;
-    margin: 100px 0 0 156px;
-  }
-  .web-2 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 44px;
-    height: 21px;
-    color: #4d5ae5;
-    font-family: "Raleway";
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    text-align: left;
-    text-transform: uppercase;
-    white-space: nowrap;
-    letter-spacing: 0.54px;
-  }
-  .studio-2 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    width: 71px;
-    height: 21px;
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #2e2f42;
     color: #f4f4fd;
-    font-family: "Raleway";
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    text-align: left;
-    text-transform: uppercase;
-    white-space: nowrap;
-    letter-spacing: 0.54px;
-  }
-  .increase-flow-customers {
-    position: relative;
-    width: 264px;
-    height: 72px;
-    margin: 16px 0 0 156px;
-    font-family: "Roboto";
-    color: #f4f4fd;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    letter-spacing: 0.32px;
-  }
- 
+    padding: 100px 0;
+}
+
+.footer-content {
+    max-width: 264px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-studio-2 {color: #F4F4FD}
+
+.footer-text {
+    line-height: 1.5;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

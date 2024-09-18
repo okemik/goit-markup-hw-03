@@ -93,8 +93,11 @@ nav a:hover {
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
 }
 
 .cta-button:hover {
@@ -116,6 +119,7 @@ ul {
 
 .feature-item {
     flex: 1;
+    width: calc((100% - 72px) / 4);
 }
 
 .feature-item h3 {
@@ -153,6 +157,7 @@ ul {
 .team-card img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .team-info {
@@ -187,6 +192,7 @@ ul {
 .portfolio-card img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .portfolio-info {

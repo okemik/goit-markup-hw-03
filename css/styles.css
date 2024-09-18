@@ -67,11 +67,11 @@ nav a:hover {
 .contact-info {
     display: flex;
     gap: 40px;
+    margin-right: 76px;
 }    
 .contact-info a {
     color: #434455;
     text-decoration: none;
-    margin-right: 76px;
     display: flex;
 }
 

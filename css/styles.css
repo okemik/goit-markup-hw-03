@@ -18,11 +18,11 @@ header {
     padding: 24px 0;
 }
 
-.header-content {
+.container-header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    max-width: 1158px;
 }
 
 .logo {
@@ -42,12 +42,13 @@ header {
     color: #2e2f42;
 }
 
+.nav {width: 261px;
+margin-left: 80px;}
 .nav ul {
     list-style: none;
     display: flex;
     gap: 40px;
     width: 261px;
-    margin-left: 76px;
     align-items: center;
 }
 
@@ -64,9 +65,8 @@ nav a:hover {
 .contact-info {
     display: flex;
     gap: 40px;
-    margin:auto;
-}
-
+    margin-left: 210px;
+}    
 .contact-info a {
     color: #434455;
     text-decoration: none;

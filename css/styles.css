@@ -72,6 +72,7 @@ nav a:hover {
     color: #434455;
     text-decoration: none;
     margin-right: 76px;
+    display: flex;
 }
 
 .contact-info a:hover {
@@ -130,29 +131,12 @@ ul {
     flex-basis: calc((100% - 3 * 24px) / 4);  
 }
 
-.strategy {
+.feature {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 8px;
-}
-.punctuality {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
-}
-.diligence {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
-}
-.technologies {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .team {
@@ -220,16 +204,19 @@ ul {
 
 .portfolio-card {
     border-bottom: 1px solid #e7e9fc;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .portfolio-card img {
     width: 100%;
     height: auto;
     display: block;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .portfolio-info {
     padding: 32px 16px;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .portfolio-title {

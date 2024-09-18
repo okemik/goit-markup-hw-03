@@ -31,7 +31,6 @@ header {
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    margin-left: 156px;
 }
 
 .logo-web {
@@ -42,14 +41,17 @@ header {
     color: #2e2f42;
 }
 
-.nav {width: 261px;
-margin-left: 80px;}
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
 .nav ul {
     list-style: none;
     display: flex;
     gap: 40px;
-    width: 261px;
-    align-items: center;
 }
 
 .nav a {
@@ -65,11 +67,11 @@ nav a:hover {
 .contact-info {
     display: flex;
     gap: 40px;
-    margin-left: 210px;
 }    
 .contact-info a {
     color: #434455;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .contact-info a:hover {
@@ -123,21 +125,9 @@ ul {
     gap: 24px;
 }
 
-.feature-item-1 {
+.feature-item {
     flex: 1;
     flex-basis: calc((100% - 3 * 24px) / 4);  
-}
-.feature-item-2 {
-    flex: 1;
-    flex-basis: calc((100% - 3 * 24px) / 4);
-}
-.feature-item-3 {
-    flex: 1;
-    flex-basis: calc((100% - 3 * 24px) / 4);
-}
-.feature-item-4 {
-    flex: 1;
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .strategy {
@@ -203,39 +193,25 @@ ul {
     padding: 32px 16px;
 }
 
-.team-name-1 {
+.team-name {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 8px;
-}
-.team-name-2 {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
-}
-.team-name-3 {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
-}
-.team-name-4 {
-    color: #2e2f42;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
+    padding: 32px 0;
 }
 
 .portfolio {
     padding: 120px 0;
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-item {

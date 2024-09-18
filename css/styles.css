@@ -31,6 +31,7 @@ header {
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
+    margin-left: 156px;
 }
 
 .logo-web {
@@ -45,6 +46,8 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 40px;
+    margin-left: -200px;
+    width: 261px;
 }
 
 nav a {
@@ -110,6 +113,7 @@ nav a:hover {
 
 ul {
     list-style-type: none;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .features-list {
@@ -119,10 +123,28 @@ ul {
 
 .feature-item {
     flex: 1;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.feature-item h3 {
+.strategy {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.punctuality {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.diligence {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.technologies {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
@@ -145,6 +167,7 @@ ul {
 .team-list {
     display: flex;
     gap: 24px;
+    padding: 32px 0;
 }
 
 .team-card {
@@ -152,6 +175,7 @@ ul {
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08);
     text-align: center;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .team-card img {
